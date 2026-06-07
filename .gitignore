@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# H2 Database files — should never be committed
+data/
+*.mv.db
+*.trace.db
