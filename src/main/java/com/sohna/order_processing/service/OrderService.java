@@ -10,7 +10,7 @@ import java.util.UUID;
 
 /**
  * Defines the contract for all order operations.
- *
+ * It defines what operations the order system supports
  * Using an interface allows the service to be mocked in tests
  * without changing the controller.
  */

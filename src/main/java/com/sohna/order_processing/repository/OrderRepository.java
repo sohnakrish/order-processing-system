@@ -16,6 +16,7 @@ import java.util.UUID;
 /**
  * Data access layer for Order entities.
  * Soft-deleted orders are filtered out by default in all queries.
+ * It extends JpaRepository, so Spring Data JPA gives basic CRUD operations automatically
  */
 @Repository
 public interface OrderRepository extends JpaRepository<Order, UUID> {

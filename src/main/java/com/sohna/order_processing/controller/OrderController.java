@@ -30,7 +30,7 @@ import java.util.UUID;
  * client always knows what to expect — success or failure,
  * the response shape is always the same.
  */
-@Slf4j
+@Slf4j//It's for logging
 @Validated
 @RestController
 @RequestMapping("/api/orders")
